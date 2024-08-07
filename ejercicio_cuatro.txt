@@ -1,0 +1,18 @@
+# escriba una funcion que tome un caracter  y devuelve true si el una vocal, de lo contrario deuelve falso
+```python
+
+def es_vocal(caracter):
+    vocales = ['a', 'e', 'i', 'o', 'u']
+    if caracter.lower() in vocales:
+        return True
+    else:
+        return False
+
+# Ejemplo de uso
+caracter = input("Ingresa un carácter: ")
+resultado = es_vocal(caracter)
+
+if resultado:
+    print(f"{caracter} es una vocal.")
+else:
+    print(f"{caracter} no es una vocal.")
