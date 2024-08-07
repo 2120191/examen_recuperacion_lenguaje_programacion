@@ -1,0 +1,13 @@
+## definir una funcion que calcule la longitud de una lista a una cadena dada..(es cierto que tiene phyton tiene la funcion len() incoporada pero escribirla por nosotros mismos resulta un muy buen ejercicio)
+```python
+
+def longitud_lista(lista):
+    count = 0
+    for _ in lista:
+        count += 1
+    return count
+
+# Ejemplo de uso
+lista_ejemplo = [1,2,3,4,5,6,7,8,9]
+longitud = longitud_lista(lista_ejemplo)
+print(f"La longitud de la lista es: {longitud}")
